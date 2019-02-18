@@ -20,7 +20,7 @@ public class Araba {
 	public Araba() {
 		ImageUpload();
 		x=325;
-		y=625;
+		y=610;
 	}
 	
 	private void ImageUpload() {

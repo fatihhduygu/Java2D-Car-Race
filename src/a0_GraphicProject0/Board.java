@@ -26,7 +26,7 @@ public class Board extends JPanel implements ActionListener {
 	private Araba araba;
 	private MoveRoad road;
 	private Image bitis;
-	private int puan = 0;
+	private int puan = 0.0;
 	// --------------------
 	private ArrayList karsiaraba;
 	private boolean carpma;

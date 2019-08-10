@@ -8,6 +8,7 @@ public class ArabaYarisi extends JFrame {
 	public ArabaYarisi() {
 		Cerceve();
 	}
+
 	private void Cerceve() {
 		add(new Board());
 		setTitle("Araba Yarisi");
@@ -15,15 +16,14 @@ public class ArabaYarisi extends JFrame {
 		setResizable(false);
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
 	}
 
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
-			
+
 			@Override
 			public void run() {
-				ArabaYarisi oyna=new ArabaYarisi();
+				ArabaYarisi oyna = new ArabaYarisi();
 				oyna.setVisible(true);
 			}
 		});

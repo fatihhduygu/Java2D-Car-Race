@@ -8,27 +8,29 @@ import javax.swing.ImageIcon;
 public class MoveRoad {
 	private Image road1;
 	private Image road2;
-	private int y=-1500;
-	
+	private int y = -1500;
+
 	public MoveRoad() {
 		imageUpload();
 		yolTasi();
-		
+
 	}
-	private void imageUpload(){
-		road2=new ImageIcon("image/road.png").getImage();
+
+	private void imageUpload() {
+		road2 = new ImageIcon("image/road.png").getImage();
 	}
-	
-	public Image getImage(){
+
+	public Image getImage() {
 		return road2;
 	}
-	
+
 	public void yolTasi() {
-		y+=1;
-		if(y>0) {
-			 y=-1500;
+		y += 3;
+		if (y > 0) {
+			y = -1500;
 		}
-	}	
+	}
+
 	public int getY() {
 		return y;
 	}

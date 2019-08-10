@@ -80,7 +80,7 @@ public class Board extends JPanel implements ActionListener {
 			FontMetrics metr = this.getFontMetrics(small);
 			g2d.setColor(Color.white);
 			g2d.setFont(small);
-			g2d.drawString("Skor:" + puan / 40, 595, 40);
+			g2d.drawString("Skore:" + puan / 40, 580, 40);
 			if (puan / 40 > 100) {
 				timer.setDelay(4);
 			}

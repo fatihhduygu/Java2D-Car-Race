@@ -11,7 +11,7 @@ public class ArabaYarisi extends JFrame {
 
 	private void Cerceve() {
 		add(new Board());
-		setTitle("Araba Yarisi");
+		setTitle("Car Race");
 		setSize(750, 750);
 		setResizable(false);
 		setLocationRelativeTo(null);
